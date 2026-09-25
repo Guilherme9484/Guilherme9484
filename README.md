@@ -19,33 +19,12 @@ Comecei formatando máquinas num escritório e nunca larguei o cabo de rede.
 
 Não foi uma linha reta. Cada coisa que aprendi nasceu de um problema que apareceu na frente, e nenhuma camada substituiu a anterior — eu ainda opero todas elas.
 
-```mermaid
-flowchart TD
-    A["2017<br/>Atualizando cadastro<br/>no escritório"] --> B["2018<br/>TI de campo<br/>formatação, peças,<br/>impressoras, licenças"]
-    B --> C["2020<br/>Saio na pandemia<br/>e abro minha empresa"]
-    C --> D["2022<br/>Volto como prestador<br/>servidor, diretório,<br/>armazenamento, backup"]
-    D --> E["2024<br/>Processos<br/>BPMN, automação<br/>e tenant corporativo"]
-    E --> F["mar/2024<br/>Primeira API<br/>o low-code tinha teto"]
-    F --> G["2025<br/>Plataforma<br/>microsserviços em<br/>Node e TypeScript"]
-    G --> H["2026<br/>Infraestrutura<br/>containers, CI/CD,<br/>observabilidade"]
-
-    C -.-> C2["2025<br/>Empresa vira Fluxmind<br/>foco em software"]
-    C2 -.-> P1["FluxPark<br/>gestão para<br/>lava-rápido"]
-    E -.-> IA["IA aplicada<br/>agentes, LLMs,<br/>visão computacional"]
-    G -.-> IA
-    H -.-> LAB["Homelab<br/>Proxmox, templates<br/>e cache de pacotes"]
-    H -.-> EST["Estudando<br/>Kubernetes<br/>e inglês técnico"]
-
-    classDef base fill:#1f6feb,stroke:#1f6feb,color:#ffffff
-    classDef virada fill:#d29922,stroke:#d29922,color:#1c1c1c
-    classDef ramo fill:#8957e5,stroke:#8957e5,color:#ffffff
-    classDef futuro fill:#2ea043,stroke:#2ea043,color:#ffffff
-
-    class A,B,C,D,E base
-    class F,G,H virada
-    class C2,P1,IA,LAB ramo
-    class EST futuro
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Guilherme9484/Guilherme9484/main/assets/trajetoria-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/Guilherme9484/Guilherme9484/main/assets/trajetoria-light.svg" alt="Trajetória de 2017 até hoje, desenhada como a saída de git log --graph" width="820"/>
+  </picture>
+</p>
 
 **A leitura curta:** o escritório me deu o negócio, as máquinas me deram a infraestrutura, os processos me deram a automação, e a automação me empurrou para a plataforma. Hoje eu volto de propósito para a infra, que é onde eu sou melhor.
 
