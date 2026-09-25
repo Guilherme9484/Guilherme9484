@@ -106,28 +106,16 @@ flowchart TD
 
 ---
 
-## Números
+## Atividade
 
 <p align="left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Guilherme9484&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&locale=pt-br"/>
-    <img src="https://github-readme-stats.vercel.app/api?username=Guilherme9484&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&locale=pt-br" alt="Estatísticas do GitHub"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Guilherme9484/Guilherme9484/output/github-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/Guilherme9484/Guilherme9484/output/github-snake.svg" alt="Cobrinha percorrendo o gráfico de contribuições"/>
   </picture>
 </p>
 
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Guilherme9484&layout=compact&langs_count=8&hide_border=true&theme=github_dark&locale=pt-br"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guilherme9484&layout=compact&langs_count=8&hide_border=true&theme=default&locale=pt-br" alt="Linguagens mais usadas"/>
-  </picture>
-</p>
-
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Guilherme9484&theme=github-compact&hide_border=true"/>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Guilherme9484&theme=github-light&hide_border=true" alt="Gráfico de atividade"/>
-  </picture>
-</p>
+<sub>Gerado todo dia por uma GitHub Action neste próprio repositório, a partir do gráfico de contribuições.</sub>
 
 ---
 
