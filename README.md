@@ -1,16 +1,142 @@
-## Hi there 👋
+<h1 align="left">Guilherme Cosme</h1>
 
-<!--
-**Guilherme9484/Guilherme9484** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left">
+Infraestrutura, DevOps e plataforma.<br/>
+Comecei formatando máquinas num escritório e nunca larguei o cabo de rede.
+</p>
 
-Here are some ideas to get you started:
+<p align="left">
+  <a href="https://www.linkedin.com/in/guilherme-c-b58428131/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <img src="https://img.shields.io/badge/São_Paulo-Brasil-1f6feb?style=flat-square" alt="São Paulo, Brasil"/>
+  <img src="https://img.shields.io/badge/autodidata-desde_2017-2ea043?style=flat-square" alt="Autodidata desde 2017"/>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Como cheguei aqui
+
+Não foi uma linha reta. Cada coisa que aprendi nasceu de um problema que apareceu na frente, e nenhuma camada substituiu a anterior — eu ainda opero todas elas.
+
+```mermaid
+flowchart LR
+    A["2017<br/>Atualizando cadastro<br/>no escritório"] --> B["2018<br/>TI de campo<br/>formatação, peças,<br/>impressoras, licenças"]
+    B --> C["2020<br/>Saio na pandemia<br/>e abro minha empresa"]
+    C --> D["2022<br/>Volto como prestador<br/>servidor, diretório,<br/>armazenamento, backup"]
+    D --> E["2024<br/>Processos<br/>BPMN, automação<br/>e tenant corporativo"]
+    E --> F["mar/2024<br/>Primeira API<br/>o low-code tinha teto"]
+    F --> G["2025<br/>Plataforma<br/>microsserviços em<br/>Node e TypeScript"]
+    G --> H["2026<br/>Infraestrutura<br/>containers, CI/CD,<br/>observabilidade"]
+
+    C -.-> C2["2025<br/>Empresa vira Fluxmind<br/>foco em software"]
+    C2 -.-> P1["FluxPark<br/>gestão para<br/>lava-rápido"]
+    E -.-> IA["IA aplicada<br/>agentes, LLMs,<br/>visão computacional"]
+    G -.-> IA
+    H -.-> LAB["Homelab<br/>Proxmox, templates<br/>e cache de pacotes"]
+    H -.-> EST["Estudando<br/>Kubernetes<br/>e inglês técnico"]
+
+    classDef base fill:#1f6feb,stroke:#1f6feb,color:#ffffff
+    classDef virada fill:#d29922,stroke:#d29922,color:#1c1c1c
+    classDef ramo fill:#8957e5,stroke:#8957e5,color:#ffffff
+    classDef futuro fill:#2ea043,stroke:#2ea043,color:#ffffff
+
+    class A,B,C,D,E base
+    class F,G,H virada
+    class C2,P1,IA,LAB ramo
+    class EST futuro
+```
+
+**A leitura curta:** o escritório me deu o negócio, as máquinas me deram a infraestrutura, os processos me deram a automação, e a automação me empurrou para a plataforma. Hoje eu volto de propósito para a infra, que é onde eu sou melhor.
+
+---
+
+## O que eu faço hoje
+
+**Infraestrutura.** Servidores Linux, virtualização, orquestração de containers, pipeline de CI/CD, ambientes separados de desenvolvimento, homologação e produção, observabilidade e rotina de backup e recuperação. Rede, firewall, segmentação e gestão de identidade.
+
+**Plataforma.** Arquitetura de microsserviços em Node e TypeScript, APIs, bancos de dados, build e publicação de aplicativos móveis.
+
+**Automação.** Troco processo manual por processo automatizado. Uma rotina que levava sete dias passou a levar menos de dois. Um fluxo que exigia trinta acessos manuais passou a exigir três.
+
+**IA aplicada.** Agentes, orquestração de LLMs, visão computacional e integrações em produção.
+
+---
+
+## Projetos
+
+| Projeto | O que é | Estado |
+|---|---|---|
+| **FluxPark** | Sistema de gestão para lava-rápido. Agenda por slot calculada pela duração do serviço, fila automatizada por telefone, estoque que desconta a porção usada em cada atendimento, e um módulo que manda o balanço semanal para uma IA e devolve sugestões. | Em desenvolvimento |
+| **Homelab Proxmox** | Nó Proxmox com templates Debian prontos para clonar e um cache de pacotes em container, para manter um host isolado atualizado sem abrir saída para a internet. | No ar |
+
+---
+
+## Stack
+
+**Infra e sistemas**
+![Linux](https://img.shields.io/badge/Linux-000?style=flat-square&logo=linux&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?style=flat-square&logo=windows&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**Containers e deploy**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Docker Swarm](https://img.shields.io/badge/Swarm-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=flat-square&logo=portainer&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Observabilidade**
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+**Desenvolvimento**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Automação e IA**
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+
+---
+
+## Números
+
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Guilherme9484&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&locale=pt-br"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=Guilherme9484&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=default&locale=pt-br" alt="Estatísticas do GitHub"/>
+  </picture>
+</p>
+
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Guilherme9484&layout=compact&langs_count=8&hide_border=true&theme=github_dark&locale=pt-br"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Guilherme9484&layout=compact&langs_count=8&hide_border=true&theme=default&locale=pt-br" alt="Linguagens mais usadas"/>
+  </picture>
+</p>
+
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Guilherme9484&theme=github-compact&hide_border=true"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Guilherme9484&theme=github-light&hide_border=true" alt="Gráfico de atividade"/>
+  </picture>
+</p>
+
+---
+
+## Como eu trabalho
+
+Aprendo construindo. Nunca estudei nada em abstrato: o protótipo que fiz para aprender virou o sistema que roda hoje, e o curso de agentes virou IA em produção.
+
+Documento o que faço, inclusive o que dá errado. Mantenho runbooks, registro de decisões e um arquivo só de lições aprendidas, com os meus próprios erros escritos em detalhe técnico. É mais barato ler do que repetir.
+
+---
+
+<sub>Sempre aberto a trocar ideia sobre infraestrutura, automação e IA aplicada.</sub>
