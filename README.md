@@ -20,7 +20,7 @@ Comecei formatando máquinas num escritório e nunca larguei o cabo de rede.
 Não foi uma linha reta. Cada coisa que aprendi nasceu de um problema que apareceu na frente, e nenhuma camada substituiu a anterior — eu ainda opero todas elas.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["2017<br/>Atualizando cadastro<br/>no escritório"] --> B["2018<br/>TI de campo<br/>formatação, peças,<br/>impressoras, licenças"]
     B --> C["2020<br/>Saio na pandemia<br/>e abro minha empresa"]
     C --> D["2022<br/>Volto como prestador<br/>servidor, diretório,<br/>armazenamento, backup"]
